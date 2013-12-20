@@ -1,0 +1,8 @@
+
+/**
+*
+* Copyright © 2009-2011 Apple Inc.  All rights reserved.
+*
+**/
+
+.iap-multi-view{-webkit-transform-style:flat}.iap-switch-view,.iap-switch-view div{-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden}.iap-switch-view .ad-label{overflow:visible}.iap-switched-back{display:none}.iap-switch-button{z-index:100}.iap-multi-view .switching-container{height:100%;width:100%;-webkit-perspective:800}.iap-multi-view .iap-multiview-front{z-index:1}
