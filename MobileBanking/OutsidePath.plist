@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cards</key>
+	<array>
+		<array>
+            <string>5458-6400-3011-1210</string>
+            <string>5458-6400-1000-2122</string>
+            <string>4009-6532-0111-8931</string>
+            <string>3776-671095-12200</string>
+            <string>4009-6590-8710-1211</string>
+            <string>3776-670111-89211</string>
+            </array>
+		<array>
+			<string>BND 13,343.00</string>
+			<string>BND 345.00</string>
+			<string>BND 8,767.00</string>
+			<string>BND 0.00</string>
+			<string>BND 56.00</string>
+            <string>BND 232.00</string>
+		</array>
+			</array>
+	<key>FromAccounts</key>
+	<array>
+		<array>
+			<string>23-12-110-312311 Test Account1</string>
+			<string>02-02-100-543167 Test Account2</string>
+			<string>02-05-710-234523 Test Account3</string>
+			<string>03-23-100-234523 Test Account4</string>
+			<string>01-02-720-234523 Test Account5</string>
+			<string>06-06-110-234523 Test Account6</string>
+			<string>01-01-110-312311 Test Account7</string>
+			<string>01-23-100-543167 Test Account8</string>
+			<string>12-05-700-543167 Test Account9</string>
+			<string>01-01-700-765912 Test Account10</string>
+		</array>
+		<array>
+			<string>BND 200.00</string>
+			<string>BND 56,456,789</string>
+			<string>USD 543,167.00</string>
+			<string>BND 13,343.00</string>
+			<string>AUD 345.00</string>
+			<string>BND 8,767.00</string>
+			<string>BND 0.00</string>
+			<string>BND 56.00</string>
+			<string>USD 4,000.00</string>
+			<string>USD 3,434.67</string>
+		</array>
+	</array>
+	<key>ToAccounts</key>
+	<array>
+		<string>01-01-100-765912 Test Account1</string>
+		<string>12-05-700-543167 Test Account2</string>
+		<string>01-23-312-543167 Test Account3</string>
+		<string>01-01-110-312311 Test Account4</string>
+		<string>06-06-110-234523 Test Account5</string>
+		<string>01-02-100-234523 Test Account6</string>
+		<string>03-23-120-234523 Test Account7</string>
+		<string>02-05-150-234523 Test Account8</string>
+		<string>02-02-120-543167 Test Account9</string>
+		<string>23-12-110-312311 Test Account10</string>
+	</array>
+	<key>Billers</key>
+	<array>
+		<string>Visa</string>
+		<string>Master</string>
+		<string>American Express</string>
+		<string>Apple</string>
+		<string>Amazon</string>
+	</array>
+	<key>PaymentsMenu</key>
+	<array>
+		<string>One Time Payment</string>
+		<string>Add Biller Account</string>
+		<string>Delete Biller Account</string>
+	</array>
+	<key>LastLogin1</key>
+	<array>
+		<date>2012-07-12T09:51:17Z</date>
+		<date>2012-07-13T09:51:33Z</date>
+	</array>
+	<key>LastLogin</key>
+	<date>2012-07-13T10:14:26Z</date>
+	<key>AccountDetails</key>
+	<array>
+		<string>45 USD;Payment at Amazon</string>
+		<string>100 BND;Payment at ATM</string>
+	</array>
+</dict>
+</plist>

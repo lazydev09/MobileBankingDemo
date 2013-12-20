@@ -1,0 +1,11 @@
+@-webkit-keyframes Splash-PageAppear-0 { 0% { opacity: 0; -webkit-animation-timing-function: ease-out; } 72.727% { opacity: 0; -webkit-animation-timing-function: ease-out; } 100% { opacity: 1; -webkit-animation-timing-function: ease-out; } }
+@-webkit-keyframes Splash-PageDisappear-0 { 0% { opacity: 1; -webkit-animation-timing-function: ease-in-out; } 100% { opacity: 0; -webkit-animation-timing-function: ease-in-out; } }
+#Splash { background-position: center; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: cover; height: 480px; width: 320px; }
+#Splash-cell, #Splash-cell2 { background-position: left top; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: auto auto; height: 100%; width: 100%; }
+#Splash-multiView { background-position: left top; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: auto auto; height: 280px; left: -211px; top: 100px; width: 280px; }
+#Splash-image3 { background-repeat-x: no-repeat; background-repeat-y: no-repeat; height: 100%; width: 100%; }
+#Splash-label { color: #3d4045; font-family: HelveticaNeue; font-size: 23px; text-align: center; }
+#Splash-mosaicView { height: 378px; left: 0px; top: 10px; width: 320px; }
+#Splash-label { height: 74px; left: 0px; top: 396px; width: 320px; }
+.ad-transition-controller-visible.ad-view-builds-in-action-list-is-active #Splash-label, .ad-transition-controller-visible:not(.ad-view-builds-in-action-list) #Splash-label { opacity: 0; }
+.ad-transition-controller-visible.ad-view-is-idle:not(.ad-view-builds-in-action-list) #Splash-label, .ad-transition-controller-visible.ad-view-builds-out-action-list-is-active #Splash-label { opacity: 1; }

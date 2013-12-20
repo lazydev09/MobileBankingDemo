@@ -14,4 +14,8 @@
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
+-(IBAction)afterLogin:(id)sender;
+
+@property (strong, nonatomic) UISplitViewController *splitViewController;
+
 @end

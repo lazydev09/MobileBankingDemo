@@ -1,0 +1,8 @@
+#Menu-button { -webkit-border-radius: 8px; background-position: left top; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: 100% 100%; border-color: rgba(0, 0, 0, 0.4); border-style: solid; border-width: 1px; color: #3d4045; font-family: HelveticaNeue-Bold; font-size: 18px; height: 48px; left: 40px; opacity: 1; padding-bottom: 0px; padding-left: 5px; padding-right: 5px; padding-top: 0px; text-align: center; top: 264px; width: 236px; }
+#Menu { background-position: center; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: cover; height: 480px; width: 320px; }
+#Menu-button.ad-highlighted { background-position: left top; background-repeat: no-repeat; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-size: 100% 100%; }
+body.ad-LoDPI #Menu-button.ad-highlighted, body.ad-HiDPI #Menu-button.ad-highlighted { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.85))); }
+body.ad-LoDPI #Menu-button, body.ad-HiDPI #Menu-button { background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.5))); }
+#Menu-menu { height: 0px; left: 40px; top: 264px; width: 240px; }
+#Menu-image { height: 256px; left: 0px; top: 24px; width: 320px; }
+#Menu-button.ad-disabled { opacity: 0.5; }

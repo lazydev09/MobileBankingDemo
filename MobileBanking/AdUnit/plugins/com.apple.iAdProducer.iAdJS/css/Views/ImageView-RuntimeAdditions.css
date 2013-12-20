@@ -1,0 +1,8 @@
+
+/**
+*
+* Copyright © 2009-2011 Apple Inc.  All rights reserved.
+*
+**/
+
+.ad-image-view{overflow:hidden}.ad-image-view>img{position:absolute}.ad-image-view[ad-asset-droppable]:not([ad-image]){background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(111,114,118,0.9)),to(rgba(145,147,151,0.9)))}

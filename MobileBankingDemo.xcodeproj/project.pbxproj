@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4575946815AE7835004871E4 /* 172.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4575946715AE7835004871E4 /* 172.jpg */; };
+		4575946B15AE7849004871E4 /* 369.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4575946915AE7849004871E4 /* 369.jpg */; };
+		4575946C15AE7849004871E4 /* 451.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4575946A15AE7849004871E4 /* 451.gif */; };
+		4575FB3715AAD60400AEEEF0 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575FB3515AAD60100AEEEF0 /* MessageViewController.m */; };
+		4575FB3815AAD60400AEEEF0 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4575FB3615AAD60200AEEEF0 /* MessageViewController.xib */; };
+		4575FB3B15AAE80B00AEEEF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4575FB3A15AAE80B00AEEEF0 /* QuartzCore.framework */; };
+		4579D68215A58EAF0026546C /* ToAccSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68015A58EAF0026546C /* ToAccSelViewController.m */; };
+		4579D68315A58EAF0026546C /* ToAccSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68015A58EAF0026546C /* ToAccSelViewController.m */; };
+		4579D68415A58EAF0026546C /* ToAccSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D68115A58EAF0026546C /* ToAccSelViewController.xib */; };
+		4579D68515A58EAF0026546C /* ToAccSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D68115A58EAF0026546C /* ToAccSelViewController.xib */; };
+		4579D68A15A594210026546C /* FromAccSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68815A594200026546C /* FromAccSelViewController.m */; };
+		4579D68B15A594210026546C /* FromAccSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68815A594200026546C /* FromAccSelViewController.m */; };
+		4579D68C15A594210026546C /* FromAccSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D68915A594200026546C /* FromAccSelViewController.xib */; };
+		4579D68D15A594210026546C /* FromAccSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D68915A594200026546C /* FromAccSelViewController.xib */; };
+		4579D69115A594B10026546C /* TransferAmtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68F15A594B00026546C /* TransferAmtViewController.m */; };
+		4579D69215A594B10026546C /* TransferAmtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D68F15A594B00026546C /* TransferAmtViewController.m */; };
+		4579D69315A594B10026546C /* TransferAmtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69015A594B00026546C /* TransferAmtViewController.xib */; };
+		4579D69415A594B10026546C /* TransferAmtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69015A594B00026546C /* TransferAmtViewController.xib */; };
+		4579D69815A594C50026546C /* TransferConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D69615A594C50026546C /* TransferConfirmViewController.m */; };
+		4579D69915A594C50026546C /* TransferConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D69615A594C50026546C /* TransferConfirmViewController.m */; };
+		4579D69A15A594C50026546C /* TransferConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69715A594C50026546C /* TransferConfirmViewController.xib */; };
+		4579D69B15A594C50026546C /* TransferConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69715A594C50026546C /* TransferConfirmViewController.xib */; };
+		4579D69F15A596AA0026546C /* TransferDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D69D15A596AA0026546C /* TransferDateViewController.m */; };
+		4579D6A015A596AA0026546C /* TransferDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579D69D15A596AA0026546C /* TransferDateViewController.m */; };
+		4579D6A115A596AA0026546C /* TransferDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69E15A596AA0026546C /* TransferDateViewController.xib */; };
+		4579D6A215A596AA0026546C /* TransferDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579D69E15A596AA0026546C /* TransferDateViewController.xib */; };
+		4579EEA915ADC8A4000305FA /* OutsidePath.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4579EEA815ADC8A4000305FA /* OutsidePath.plist */; };
+		4579EEAE15ADCCF8000305FA /* OneTimePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4579EEAC15ADCCF8000305FA /* OneTimePayViewController.m */; };
+		4579EEAF15ADCCF8000305FA /* OneTimePayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4579EEAD15ADCCF8000305FA /* OneTimePayViewController.xib */; };
+		457E7ECB15A54F360012AB79 /* transferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E7EC915A54F360012AB79 /* transferViewController.m */; };
+		457E7ECC15A54F360012AB79 /* transferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E7EC915A54F360012AB79 /* transferViewController.m */; };
+		457E7ECD15A54F360012AB79 /* transferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457E7ECA15A54F360012AB79 /* transferViewController.xib */; };
+		457E7ECE15A54F360012AB79 /* transferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457E7ECA15A54F360012AB79 /* transferViewController.xib */; };
+		457FDDC115A1AF7F00BB435A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDC015A1AF7F00BB435A /* UIKit.framework */; };
+		457FDDC315A1AF7F00BB435A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDC215A1AF7F00BB435A /* Foundation.framework */; };
+		457FDDC515A1AF7F00BB435A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDC415A1AF7F00BB435A /* CoreGraphics.framework */; };
+		457FDDCB15A1AF7F00BB435A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDC915A1AF7F00BB435A /* InfoPlist.strings */; };
+		457FDDCD15A1AF7F00BB435A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDDCC15A1AF7F00BB435A /* main.m */; };
+		457FDDD115A1AF7F00BB435A /* dummyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDDD015A1AF7F00BB435A /* dummyAppDelegate.m */; };
+		457FDDD415A1AF7F00BB435A /* dummyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDDD315A1AF7F00BB435A /* dummyFirstViewController.m */; };
+		457FDDD615A1AF7F00BB435A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDD515A1AF7F00BB435A /* first.png */; };
+		457FDDD815A1AF7F00BB435A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDD715A1AF7F00BB435A /* first@2x.png */; };
+		457FDDDB15A1AF7F00BB435A /* dummySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDDDA15A1AF7F00BB435A /* dummySecondViewController.m */; };
+		457FDDDD15A1AF7F00BB435A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDDC15A1AF7F00BB435A /* second.png */; };
+		457FDDDF15A1AF7F00BB435A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDDE15A1AF7F00BB435A /* second@2x.png */; };
+		457FDDE215A1AF7F00BB435A /* dummyFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDE015A1AF7F00BB435A /* dummyFirstViewController_iPhone.xib */; };
+		457FDDE515A1AF7F00BB435A /* dummyFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDE315A1AF7F00BB435A /* dummyFirstViewController_iPad.xib */; };
+		457FDDE815A1AF7F00BB435A /* dummySecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDE615A1AF7F00BB435A /* dummySecondViewController_iPhone.xib */; };
+		457FDDEB15A1AF7F00BB435A /* dummySecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDE915A1AF7F00BB435A /* dummySecondViewController_iPad.xib */; };
+		457FDDF315A1AF8000BB435A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDF215A1AF8000BB435A /* SenTestingKit.framework */; };
+		457FDDF415A1AF8000BB435A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDC015A1AF7F00BB435A /* UIKit.framework */; };
+		457FDDF515A1AF8000BB435A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457FDDC215A1AF7F00BB435A /* Foundation.framework */; };
+		457FDDFD15A1AF8100BB435A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 457FDDFB15A1AF8100BB435A /* InfoPlist.strings */; };
+		457FDE0015A1AF8100BB435A /* MobileBankingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDDFF15A1AF8100BB435A /* MobileBankingTests.m */; };
+		457FDE0C15A1AFD200BB435A /* AccountSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FDE0A15A1AFD200BB435A /* AccountSummaryViewController.m */; };
+		457FDE0D15A1AFD200BB435A /* AccountSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457FDE0B15A1AFD200BB435A /* AccountSummaryViewController.xib */; };
+		458021AE15AC7BDB005AE564 /* TokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458021AC15AC7BDB005AE564 /* TokenViewController.m */; };
+		458021AF15AC7BDB005AE564 /* TokenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458021AD15AC7BDB005AE564 /* TokenViewController.xib */; };
+		45837D5E15A1E1CE00A69EC1 /* AccountDetailsSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45837D5C15A1E1CE00A69EC1 /* AccountDetailsSubView.m */; };
+		45837D5F15A1E1CE00A69EC1 /* AccountDetailsSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45837D5C15A1E1CE00A69EC1 /* AccountDetailsSubView.m */; };
+		45837D6015A1E1CE00A69EC1 /* AccountDetailsSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45837D5D15A1E1CE00A69EC1 /* AccountDetailsSubView.xib */; };
+		45837D6115A1E1CE00A69EC1 /* AccountDetailsSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45837D5D15A1E1CE00A69EC1 /* AccountDetailsSubView.xib */; };
+		45837D7015A1FC1F00A69EC1 /* dummyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45837D6F15A1FC1F00A69EC1 /* dummyCell.m */; };
+		45837D7115A1FC1F00A69EC1 /* dummyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45837D6F15A1FC1F00A69EC1 /* dummyCell.m */; };
+		45837D7315A1FCCD00A69EC1 /* dummyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45837D7215A1FCCD00A69EC1 /* dummyCell.xib */; };
+		45837D7415A1FCCD00A69EC1 /* dummyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45837D7215A1FCCD00A69EC1 /* dummyCell.xib */; };
+		4584329015AC3BCC00C3530B /* AuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584328F15AC3BCB00C3530B /* AuthController.m */; };
+		45CDBFDC15AD6A4D00BC87FC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFDA15AD6A4D00BC87FC /* HomeViewController.m */; };
+		45CDBFDD15AD6A4D00BC87FC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFDA15AD6A4D00BC87FC /* HomeViewController.m */; };
+		45CDBFDE15AD6A4D00BC87FC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFDB15AD6A4D00BC87FC /* HomeViewController.xib */; };
+		45CDBFDF15AD6A4D00BC87FC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFDB15AD6A4D00BC87FC /* HomeViewController.xib */; };
+		45CDBFE415AD6CC100BC87FC /* MailBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFE215AD6CC100BC87FC /* MailBoxViewController.m */; };
+		45CDBFE515AD6CC100BC87FC /* MailBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFE215AD6CC100BC87FC /* MailBoxViewController.m */; };
+		45CDBFE615AD6CC100BC87FC /* MailBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFE315AD6CC100BC87FC /* MailBoxViewController.xib */; };
+		45CDBFE715AD6CC100BC87FC /* MailBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFE315AD6CC100BC87FC /* MailBoxViewController.xib */; };
+		45CDBFEB15AD749500BC87FC /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFE915AD749200BC87FC /* PaymentsViewController.m */; };
+		45CDBFEC15AD749500BC87FC /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDBFE915AD749200BC87FC /* PaymentsViewController.m */; };
+		45CDBFED15AD749500BC87FC /* PaymentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFEA15AD749300BC87FC /* PaymentsViewController.xib */; };
+		45CDBFEE15AD749500BC87FC /* PaymentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFEA15AD749300BC87FC /* PaymentsViewController.xib */; };
+		45CDBFF015AD7A4D00BC87FC /* DummyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFEF15AD7A4D00BC87FC /* DummyData.plist */; };
+		45CDBFF115AD7A4D00BC87FC /* DummyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45CDBFEF15AD7A4D00BC87FC /* DummyData.plist */; };
+		9F1C133D1604A2D900E8A5AA /* PromotionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C133B1604A2D900E8A5AA /* PromotionsViewController.m */; };
+		9F1C133E1604A2D900E8A5AA /* PromotionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1C133C1604A2D900E8A5AA /* PromotionsViewController.xib */; };
+		9F1C14191604CBB300E8A5AA /* AdUnit in Resources */ = {isa = PBXBuildFile; fileRef = 9F1C14181604CBB300E8A5AA /* AdUnit */; };
+		9F33F33C170C2A5700714197 /* dummyCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F33F33B170C2A5700714197 /* dummyCustomAlertView.m */; };
+		9F433D831863DD3D0089E3F4 /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F433D821863DD3D0089E3F4 /* master.png */; };
+		9F433D851863DD9D0089E3F4 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F433D841863DD9D0089E3F4 /* amex.png */; };
+		9F433D871863DDA30089E3F4 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F433D861863DDA30089E3F4 /* visa.png */; };
+		9F46E74616005FB0002D3D60 /* BillerAccSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E74416005FB0002D3D60 /* BillerAccSelViewController.m */; };
+		9F46E74716005FB0002D3D60 /* BillerAccSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E74516005FB0002D3D60 /* BillerAccSelViewController.xib */; };
+		9F46E74C160066F2002D3D60 /* BPConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E74A160066F2002D3D60 /* BPConfirmViewController.m */; };
+		9F46E74D160066F2002D3D60 /* BPConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E74B160066F2002D3D60 /* BPConfirmViewController.xib */; };
+		9F46E751160099D1002D3D60 /* CardSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E74F160099D0002D3D60 /* CardSummaryViewController.m */; };
+		9F46E752160099D1002D3D60 /* CardSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E750160099D0002D3D60 /* CardSummaryViewController.xib */; };
+		9F46E7621600D2E6002D3D60 /* CardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E7601600D2E5002D3D60 /* CardDetailsViewController.m */; };
+		9F46E7631600D2E6002D3D60 /* CardDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E7611600D2E5002D3D60 /* CardDetailsViewController.xib */; };
+		9F5F908F15B3ADF800E52500 /* MailBoxDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5F908D15B3ADF800E52500 /* MailBoxDetailsViewController.m */; };
+		9F5F909015B3ADF800E52500 /* MailBoxDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F908E15B3ADF800E52500 /* MailBoxDetailsViewController.xib */; };
+		9F5F909315B3B27900E52500 /* OneTimePayResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909215B3B27900E52500 /* OneTimePayResultView.xib */; };
+		9F5F909715B3D84B00E52500 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909615B3D84A00E52500 /* login_bg.png */; };
+		9F5F909B15B3EF7C00E52500 /* breadcrumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909A15B3EF7B00E52500 /* breadcrumbs.png */; };
+		9F5F909D15B3F5B400E52500 /* bc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909C15B3F5B300E52500 /* bc2.png */; };
+		9F5F90A115B3F8A100E52500 /* bc_amt.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909E15B3F89E00E52500 /* bc_amt.png */; };
+		9F5F90A215B3F8A100E52500 /* bc_from.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F909F15B3F89E00E52500 /* bc_from.png */; };
+		9F5F90A315B3F8A100E52500 /* bc_when.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F90A015B3F8A000E52500 /* bc_when.png */; };
+		9F5F90A515B3F9A400E52500 /* email_compose.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F90A415B3F9A300E52500 /* email_compose.png */; };
+		9F5F90A815B3FAD700E52500 /* bc_confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F90A615B3FAD400E52500 /* bc_confirm.png */; };
+		9F5F90A915B3FAD700E52500 /* bc_result.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5F90A715B3FAD500E52500 /* bc_result.png */; };
+		9F85BFB515E5FF8100CAF3B2 /* ComposeMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F85BFB315E5FF8100CAF3B2 /* ComposeMailViewController.m */; };
+		9F85BFB615E5FF8100CAF3B2 /* ComposeMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F85BFB415E5FF8100CAF3B2 /* ComposeMailViewController.xib */; };
+		9F8BAD6C15BE963400C76142 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BAD6B15BE963400C76142 /* KeychainWrapper.m */; };
+		9F8BAD6E15BEA26A00C76142 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BAD6D15BEA26A00C76142 /* Security.framework */; };
+		9F8D997715BF8A2400656076 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D997615BF8A2400656076 /* KeychainItemWrapper.m */; };
+		9FB119881607034000093E39 /* promotions.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB119871607034000093E39 /* promotions.png */; };
+		9FB1198B160706E900093E39 /* bc_biller.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1198A160706E900093E39 /* bc_biller.png */; };
+		9FC0F4F015B694450007B723 /* TokenViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0F4EF15B694450007B723 /* TokenViewController_ipad.xib */; };
+		9FC0F54015B6A12A0007B723 /* WelcomeViewController_ipad.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0F53E15B6A12A0007B723 /* WelcomeViewController_ipad.m */; };
+		9FC0F54115B6A12A0007B723 /* WelcomeViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0F53F15B6A12A0007B723 /* WelcomeViewController_ipad.xib */; };
+		9FC0F54A15B6A3300007B723 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0F54815B6A3300007B723 /* RightViewController.m */; };
+		9FC0F54B15B6A3300007B723 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0F54915B6A3300007B723 /* RightViewController.xib */; };
+		9FC0F54F15B6AC970007B723 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0F54D15B6AC970007B723 /* LeftViewController.m */; };
+		9FC0F55015B6AC970007B723 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0F54E15B6AC970007B723 /* LeftViewController.xib */; };
+		9FC8527615B0245D00527D78 /* cards_lbl.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527515B0245C00527D78 /* cards_lbl.png */; };
+		9FC8527815B0246400527D78 /* payment_lbl.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527715B0246400527D78 /* payment_lbl.png */; };
+		9FC8527A15B0246B00527D78 /* transfer_lbl.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527915B0246B00527D78 /* transfer_lbl.png */; };
+		9FC8527C15B0247100527D78 /* accounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527B15B0247100527D78 /* accounts.png */; };
+		9FC8527E15B0247700527D78 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527D15B0247700527D78 /* messages.png */; };
+		9FC8528015B024B400527D78 /* mb_acc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8527F15B024B400527D78 /* mb_acc.png */; };
+		9FC8528215B0274000527D78 /* home_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528115B0274000527D78 /* home_30.png */; };
+		9FC8528415B027F900527D78 /* account_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528315B027F800527D78 /* account_30.png */; };
+		9FC8528615B027FE00527D78 /* message_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528515B027FD00527D78 /* message_30.png */; };
+		9FC8528815B0280300527D78 /* transfer_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528715B0280300527D78 /* transfer_30.png */; };
+		9FC8528A15B0285700527D78 /* payment_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528915B0285600527D78 /* payment_30.png */; };
+		9FC8528E15B03A1F00527D78 /* LogoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8528C15B03A1E00527D78 /* LogoutViewController.m */; };
+		9FC8528F15B03A1F00527D78 /* LogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8528D15B03A1E00527D78 /* LogoutViewController.xib */; };
+		9FC8529115B03D7C00527D78 /* mb_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8529015B03D7B00527D78 /* mb_launch.png */; };
+		9FC8529515B03FE800527D78 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8529415B03FE700527D78 /* Icon.png */; };
+		9FC8529915B1965F00527D78 /* OneTimePayConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8529715B1965D00527D78 /* OneTimePayConfirmViewController.m */; };
+		9FC8529A15B1965F00527D78 /* OneTimePayConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8529815B1965E00527D78 /* OneTimePayConfirmViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457FDDF615A1AF8100BB435A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457FDDB315A1AF7F00BB435A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457FDDBB15A1AF7F00BB435A;
+			remoteInfo = MobileBanking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4575946715AE7835004871E4 /* 172.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 172.jpg; sourceTree = "<group>"; };
+		4575946915AE7849004871E4 /* 369.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 369.jpg; sourceTree = "<group>"; };
+		4575946A15AE7849004871E4 /* 451.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 451.gif; sourceTree = "<group>"; };
+		4575FB3415AAD60100AEEEF0 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		4575FB3515AAD60100AEEEF0 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		4575FB3615AAD60200AEEEF0 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		4575FB3A15AAE80B00AEEEF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4579D67F15A58EAF0026546C /* ToAccSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToAccSelViewController.h; sourceTree = "<group>"; };
+		4579D68015A58EAF0026546C /* ToAccSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToAccSelViewController.m; sourceTree = "<group>"; };
+		4579D68115A58EAF0026546C /* ToAccSelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToAccSelViewController.xib; sourceTree = "<group>"; };
+		4579D68715A5941D0026546C /* FromAccSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromAccSelViewController.h; sourceTree = "<group>"; };
+		4579D68815A594200026546C /* FromAccSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromAccSelViewController.m; sourceTree = "<group>"; };
+		4579D68915A594200026546C /* FromAccSelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromAccSelViewController.xib; sourceTree = "<group>"; };
+		4579D68E15A594B00026546C /* TransferAmtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferAmtViewController.h; sourceTree = "<group>"; };
+		4579D68F15A594B00026546C /* TransferAmtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferAmtViewController.m; sourceTree = "<group>"; };
+		4579D69015A594B00026546C /* TransferAmtViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferAmtViewController.xib; sourceTree = "<group>"; };
+		4579D69515A594C50026546C /* TransferConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferConfirmViewController.h; sourceTree = "<group>"; };
+		4579D69615A594C50026546C /* TransferConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferConfirmViewController.m; sourceTree = "<group>"; };
+		4579D69715A594C50026546C /* TransferConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferConfirmViewController.xib; sourceTree = "<group>"; };
+		4579D69C15A596AA0026546C /* TransferDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferDateViewController.h; sourceTree = "<group>"; };
+		4579D69D15A596AA0026546C /* TransferDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferDateViewController.m; sourceTree = "<group>"; };
+		4579D69E15A596AA0026546C /* TransferDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferDateViewController.xib; sourceTree = "<group>"; };
+		4579EEA815ADC8A4000305FA /* OutsidePath.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OutsidePath.plist; sourceTree = "<group>"; };
+		4579EEAB15ADCCF8000305FA /* OneTimePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTimePayViewController.h; sourceTree = "<group>"; };
+		4579EEAC15ADCCF8000305FA /* OneTimePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTimePayViewController.m; sourceTree = "<group>"; };
+		4579EEAD15ADCCF8000305FA /* OneTimePayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTimePayViewController.xib; sourceTree = "<group>"; };
+		457E7EC815A54F360012AB79 /* transferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transferViewController.h; sourceTree = "<group>"; };
+		457E7EC915A54F360012AB79 /* transferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transferViewController.m; sourceTree = "<group>"; };
+		457E7ECA15A54F360012AB79 /* transferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = transferViewController.xib; sourceTree = "<group>"; };
+		457FDDBC15A1AF7F00BB435A /* MobileBankingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileBankingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457FDDC015A1AF7F00BB435A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		457FDDC215A1AF7F00BB435A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		457FDDC415A1AF7F00BB435A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		457FDDC815A1AF7F00BB435A /* MobileBankingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileBankingDemo-Info.plist"; sourceTree = "<group>"; };
+		457FDDCA15A1AF7F00BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457FDDCC15A1AF7F00BB435A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		457FDDCE15A1AF7F00BB435A /* MobileBanking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileBanking-Prefix.pch"; sourceTree = "<group>"; };
+		457FDDCF15A1AF7F00BB435A /* dummyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dummyAppDelegate.h; sourceTree = "<group>"; };
+		457FDDD015A1AF7F00BB435A /* dummyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dummyAppDelegate.m; sourceTree = "<group>"; };
+		457FDDD215A1AF7F00BB435A /* dummyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dummyFirstViewController.h; sourceTree = "<group>"; };
+		457FDDD315A1AF7F00BB435A /* dummyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dummyFirstViewController.m; sourceTree = "<group>"; };
+		457FDDD515A1AF7F00BB435A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		457FDDD715A1AF7F00BB435A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		457FDDD915A1AF7F00BB435A /* dummySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dummySecondViewController.h; sourceTree = "<group>"; };
+		457FDDDA15A1AF7F00BB435A /* dummySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dummySecondViewController.m; sourceTree = "<group>"; };
+		457FDDDC15A1AF7F00BB435A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		457FDDDE15A1AF7F00BB435A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		457FDDE115A1AF7F00BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dummyFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		457FDDE415A1AF7F00BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dummyFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		457FDDE715A1AF7F00BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dummySecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		457FDDEA15A1AF7F00BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/dummySecondViewController_iPad.xib; sourceTree = "<group>"; };
+		457FDDF115A1AF8000BB435A /* MobileBankingDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileBankingDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457FDDF215A1AF8000BB435A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		457FDDFA15A1AF8100BB435A /* MobileBankingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileBankingDemoTests-Info.plist"; sourceTree = "<group>"; };
+		457FDDFC15A1AF8100BB435A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		457FDDFE15A1AF8100BB435A /* MobileBankingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileBankingTests.h; sourceTree = "<group>"; };
+		457FDDFF15A1AF8100BB435A /* MobileBankingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBankingTests.m; sourceTree = "<group>"; };
+		457FDE0915A1AFD200BB435A /* AccountSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSummaryViewController.h; sourceTree = "<group>"; };
+		457FDE0A15A1AFD200BB435A /* AccountSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSummaryViewController.m; sourceTree = "<group>"; };
+		457FDE0B15A1AFD200BB435A /* AccountSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountSummaryViewController.xib; sourceTree = "<group>"; };
+		458021AB15AC7BDB005AE564 /* TokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenViewController.h; sourceTree = "<group>"; };
+		458021AC15AC7BDB005AE564 /* TokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenViewController.m; sourceTree = "<group>"; };
+		458021AD15AC7BDB005AE564 /* TokenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenViewController.xib; sourceTree = "<group>"; };
+		45837D5B15A1E1CE00A69EC1 /* AccountDetailsSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDetailsSubView.h; sourceTree = "<group>"; };
+		45837D5C15A1E1CE00A69EC1 /* AccountDetailsSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDetailsSubView.m; sourceTree = "<group>"; };
+		45837D5D15A1E1CE00A69EC1 /* AccountDetailsSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountDetailsSubView.xib; sourceTree = "<group>"; };
+		45837D6E15A1FC1F00A69EC1 /* dummyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyCell.h; sourceTree = "<group>"; };
+		45837D6F15A1FC1F00A69EC1 /* dummyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyCell.m; sourceTree = "<group>"; };
+		45837D7215A1FCCD00A69EC1 /* dummyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dummyCell.xib; sourceTree = "<group>"; };
+		4584328E15AC3BCB00C3530B /* AuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthController.h; sourceTree = "<group>"; };
+		4584328F15AC3BCB00C3530B /* AuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthController.m; sourceTree = "<group>"; };
+		45CDBFD915AD6A4D00BC87FC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		45CDBFDA15AD6A4D00BC87FC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		45CDBFDB15AD6A4D00BC87FC /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		45CDBFE115AD6CC100BC87FC /* MailBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailBoxViewController.h; sourceTree = "<group>"; };
+		45CDBFE215AD6CC100BC87FC /* MailBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailBoxViewController.m; sourceTree = "<group>"; };
+		45CDBFE315AD6CC100BC87FC /* MailBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailBoxViewController.xib; sourceTree = "<group>"; };
+		45CDBFE815AD749200BC87FC /* PaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsViewController.h; sourceTree = "<group>"; };
+		45CDBFE915AD749200BC87FC /* PaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentsViewController.m; sourceTree = "<group>"; };
+		45CDBFEA15AD749300BC87FC /* PaymentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentsViewController.xib; sourceTree = "<group>"; };
+		45CDBFEF15AD7A4D00BC87FC /* DummyData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DummyData.plist; sourceTree = "<group>"; };
+		9F1C133A1604A2D900E8A5AA /* PromotionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionsViewController.h; sourceTree = "<group>"; };
+		9F1C133B1604A2D900E8A5AA /* PromotionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsViewController.m; sourceTree = "<group>"; };
+		9F1C133C1604A2D900E8A5AA /* PromotionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PromotionsViewController.xib; sourceTree = "<group>"; };
+		9F1C14181604CBB300E8A5AA /* AdUnit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdUnit; sourceTree = "<group>"; };
+		9F33F33A170C2A5700714197 /* dummyCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyCustomAlertView.h; sourceTree = "<group>"; };
+		9F33F33B170C2A5700714197 /* dummyCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyCustomAlertView.m; sourceTree = "<group>"; };
+		9F433D821863DD3D0089E3F4 /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
+		9F433D841863DD9D0089E3F4 /* amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amex.png; sourceTree = "<group>"; };
+		9F433D861863DDA30089E3F4 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		9F46E74316005FB0002D3D60 /* BillerAccSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillerAccSelViewController.h; sourceTree = "<group>"; };
+		9F46E74416005FB0002D3D60 /* BillerAccSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillerAccSelViewController.m; sourceTree = "<group>"; };
+		9F46E74516005FB0002D3D60 /* BillerAccSelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillerAccSelViewController.xib; sourceTree = "<group>"; };
+		9F46E749160066F1002D3D60 /* BPConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPConfirmViewController.h; sourceTree = "<group>"; };
+		9F46E74A160066F2002D3D60 /* BPConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPConfirmViewController.m; sourceTree = "<group>"; };
+		9F46E74B160066F2002D3D60 /* BPConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPConfirmViewController.xib; sourceTree = "<group>"; };
+		9F46E74E160099CF002D3D60 /* CardSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSummaryViewController.h; sourceTree = "<group>"; };
+		9F46E74F160099D0002D3D60 /* CardSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSummaryViewController.m; sourceTree = "<group>"; };
+		9F46E750160099D0002D3D60 /* CardSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardSummaryViewController.xib; sourceTree = "<group>"; };
+		9F46E75F1600D2E3002D3D60 /* CardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsViewController.h; sourceTree = "<group>"; };
+		9F46E7601600D2E5002D3D60 /* CardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsViewController.m; sourceTree = "<group>"; };
+		9F46E7611600D2E5002D3D60 /* CardDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardDetailsViewController.xib; sourceTree = "<group>"; };
+		9F5F908C15B3ADF800E52500 /* MailBoxDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailBoxDetailsViewController.h; sourceTree = "<group>"; };
+		9F5F908D15B3ADF800E52500 /* MailBoxDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailBoxDetailsViewController.m; sourceTree = "<group>"; };
+		9F5F908E15B3ADF800E52500 /* MailBoxDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailBoxDetailsViewController.xib; sourceTree = "<group>"; };
+		9F5F909215B3B27900E52500 /* OneTimePayResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTimePayResultView.xib; sourceTree = "<group>"; };
+		9F5F909615B3D84A00E52500 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
+		9F5F909A15B3EF7B00E52500 /* breadcrumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breadcrumbs.png; sourceTree = "<group>"; };
+		9F5F909C15B3F5B300E52500 /* bc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc2.png; sourceTree = "<group>"; };
+		9F5F909E15B3F89E00E52500 /* bc_amt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_amt.png; sourceTree = "<group>"; };
+		9F5F909F15B3F89E00E52500 /* bc_from.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_from.png; sourceTree = "<group>"; };
+		9F5F90A015B3F8A000E52500 /* bc_when.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_when.png; sourceTree = "<group>"; };
+		9F5F90A415B3F9A300E52500 /* email_compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_compose.png; sourceTree = "<group>"; };
+		9F5F90A615B3FAD400E52500 /* bc_confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_confirm.png; sourceTree = "<group>"; };
+		9F5F90A715B3FAD500E52500 /* bc_result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_result.png; sourceTree = "<group>"; };
+		9F85BFB215E5FF8100CAF3B2 /* ComposeMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeMailViewController.h; sourceTree = "<group>"; };
+		9F85BFB315E5FF8100CAF3B2 /* ComposeMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeMailViewController.m; sourceTree = "<group>"; };
+		9F85BFB415E5FF8100CAF3B2 /* ComposeMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeMailViewController.xib; sourceTree = "<group>"; };
+		9F8BAD6015BE511B00C76142 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+		9F8BAD6A15BE963400C76142 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		9F8BAD6B15BE963400C76142 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		9F8BAD6D15BEA26A00C76142 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9F8D997515BF8A2400656076 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		9F8D997615BF8A2400656076 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		9FB119871607034000093E39 /* promotions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promotions.png; sourceTree = "<group>"; };
+		9FB1198A160706E900093E39 /* bc_biller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_biller.png; sourceTree = "<group>"; };
+		9FC0F4EF15B694450007B723 /* TokenViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenViewController_ipad.xib; sourceTree = "<group>"; };
+		9FC0F53D15B6A12A0007B723 /* WelcomeViewController_ipad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController_ipad.h; sourceTree = "<group>"; };
+		9FC0F53E15B6A12A0007B723 /* WelcomeViewController_ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController_ipad.m; sourceTree = "<group>"; };
+		9FC0F53F15B6A12A0007B723 /* WelcomeViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController_ipad.xib; sourceTree = "<group>"; };
+		9FC0F54715B6A3300007B723 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		9FC0F54815B6A3300007B723 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		9FC0F54915B6A3300007B723 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		9FC0F54C15B6AC970007B723 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		9FC0F54D15B6AC970007B723 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		9FC0F54E15B6AC970007B723 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftViewController.xib; path = ../LeftViewController.xib; sourceTree = "<group>"; };
+		9FC8527515B0245C00527D78 /* cards_lbl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_lbl.png; sourceTree = "<group>"; };
+		9FC8527715B0246400527D78 /* payment_lbl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_lbl.png; sourceTree = "<group>"; };
+		9FC8527915B0246B00527D78 /* transfer_lbl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfer_lbl.png; sourceTree = "<group>"; };
+		9FC8527B15B0247100527D78 /* accounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accounts.png; sourceTree = "<group>"; };
+		9FC8527D15B0247700527D78 /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
+		9FC8527F15B024B400527D78 /* mb_acc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mb_acc.png; sourceTree = "<group>"; };
+		9FC8528115B0274000527D78 /* home_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_30.png; sourceTree = "<group>"; };
+		9FC8528315B027F800527D78 /* account_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_30.png; sourceTree = "<group>"; };
+		9FC8528515B027FD00527D78 /* message_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_30.png; sourceTree = "<group>"; };
+		9FC8528715B0280300527D78 /* transfer_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfer_30.png; sourceTree = "<group>"; };
+		9FC8528915B0285600527D78 /* payment_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_30.png; sourceTree = "<group>"; };
+		9FC8528B15B03A1D00527D78 /* LogoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutViewController.h; sourceTree = "<group>"; };
+		9FC8528C15B03A1E00527D78 /* LogoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutViewController.m; sourceTree = "<group>"; };
+		9FC8528D15B03A1E00527D78 /* LogoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoutViewController.xib; sourceTree = "<group>"; };
+		9FC8529015B03D7B00527D78 /* mb_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mb_launch.png; sourceTree = "<group>"; };
+		9FC8529415B03FE700527D78 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9FC8529615B1965C00527D78 /* OneTimePayConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTimePayConfirmViewController.h; sourceTree = "<group>"; };
+		9FC8529715B1965D00527D78 /* OneTimePayConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTimePayConfirmViewController.m; sourceTree = "<group>"; };
+		9FC8529815B1965E00527D78 /* OneTimePayConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneTimePayConfirmViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457FDDB915A1AF7F00BB435A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BAD6E15BEA26A00C76142 /* Security.framework in Frameworks */,
+				4575FB3B15AAE80B00AEEEF0 /* QuartzCore.framework in Frameworks */,
+				457FDDC115A1AF7F00BB435A /* UIKit.framework in Frameworks */,
+				457FDDC315A1AF7F00BB435A /* Foundation.framework in Frameworks */,
+				457FDDC515A1AF7F00BB435A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FDDED15A1AF8000BB435A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FDDF315A1AF8000BB435A /* SenTestingKit.framework in Frameworks */,
+				457FDDF415A1AF8000BB435A /* UIKit.framework in Frameworks */,
+				457FDDF515A1AF8000BB435A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457FDDB115A1AF7F00BB435A = {
+			isa = PBXGroup;
+			children = (
+				9F8BAD6D15BEA26A00C76142 /* Security.framework */,
+				9F8BAD6A15BE963400C76142 /* KeychainWrapper.h */,
+				9F8BAD6B15BE963400C76142 /* KeychainWrapper.m */,
+				9F8D997515BF8A2400656076 /* KeychainItemWrapper.h */,
+				9F8D997615BF8A2400656076 /* KeychainItemWrapper.m */,
+				9F8BAD6015BE511B00C76142 /* libcommonCrypto.dylib */,
+				4575FB3A15AAE80B00AEEEF0 /* QuartzCore.framework */,
+				457FDDC615A1AF7F00BB435A /* MobileBanking */,
+				457FDDF815A1AF8100BB435A /* MobileBankingTests */,
+				457FDDBF15A1AF7F00BB435A /* Frameworks */,
+				457FDDBD15A1AF7F00BB435A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457FDDBD15A1AF7F00BB435A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457FDDBC15A1AF7F00BB435A /* MobileBankingDemo.app */,
+				457FDDF115A1AF8000BB435A /* MobileBankingDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457FDDBF15A1AF7F00BB435A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457FDDC015A1AF7F00BB435A /* UIKit.framework */,
+				457FDDC215A1AF7F00BB435A /* Foundation.framework */,
+				457FDDC415A1AF7F00BB435A /* CoreGraphics.framework */,
+				457FDDF215A1AF8000BB435A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457FDDC615A1AF7F00BB435A /* MobileBanking */ = {
+			isa = PBXGroup;
+			children = (
+				9F433D861863DDA30089E3F4 /* visa.png */,
+				9F433D841863DD9D0089E3F4 /* amex.png */,
+				9F433D821863DD3D0089E3F4 /* master.png */,
+				9F5F90A415B3F9A300E52500 /* email_compose.png */,
+				9FB119871607034000093E39 /* promotions.png */,
+				9FB1198A160706E900093E39 /* bc_biller.png */,
+				9F5F90A615B3FAD400E52500 /* bc_confirm.png */,
+				9F5F90A715B3FAD500E52500 /* bc_result.png */,
+				9F5F909A15B3EF7B00E52500 /* breadcrumbs.png */,
+				9F5F909615B3D84A00E52500 /* login_bg.png */,
+				9FC8529015B03D7B00527D78 /* mb_launch.png */,
+				9FC8527515B0245C00527D78 /* cards_lbl.png */,
+				9FC8529415B03FE700527D78 /* Icon.png */,
+				9FC8528115B0274000527D78 /* home_30.png */,
+				9FC8528315B027F800527D78 /* account_30.png */,
+				9FC8527D15B0247700527D78 /* messages.png */,
+				9FC8528515B027FD00527D78 /* message_30.png */,
+				9FC8527B15B0247100527D78 /* accounts.png */,
+				9FC8527915B0246B00527D78 /* transfer_lbl.png */,
+				9FC8528715B0280300527D78 /* transfer_30.png */,
+				9FC8528915B0285600527D78 /* payment_30.png */,
+				9FC8527715B0246400527D78 /* payment_lbl.png */,
+				4575946915AE7849004871E4 /* 369.jpg */,
+				9FC8527F15B024B400527D78 /* mb_acc.png */,
+				4575946A15AE7849004871E4 /* 451.gif */,
+				457FDDD515A1AF7F00BB435A /* first.png */,
+				457FDDD715A1AF7F00BB435A /* first@2x.png */,
+				4575946715AE7835004871E4 /* 172.jpg */,
+				9F5F909C15B3F5B300E52500 /* bc2.png */,
+				9F5F909E15B3F89E00E52500 /* bc_amt.png */,
+				9F5F909F15B3F89E00E52500 /* bc_from.png */,
+				9F5F90A015B3F8A000E52500 /* bc_when.png */,
+				457FDDC715A1AF7F00BB435A /* Supporting Files */,
+				457FDDCF15A1AF7F00BB435A /* dummyAppDelegate.h */,
+				457FDDD015A1AF7F00BB435A /* dummyAppDelegate.m */,
+				457FDDD215A1AF7F00BB435A /* dummyFirstViewController.h */,
+				457FDDD315A1AF7F00BB435A /* dummyFirstViewController.m */,
+				457FDDE015A1AF7F00BB435A /* dummyFirstViewController_iPhone.xib */,
+				457FDDE315A1AF7F00BB435A /* dummyFirstViewController_iPad.xib */,
+				457FDDD915A1AF7F00BB435A /* dummySecondViewController.h */,
+				457FDDDA15A1AF7F00BB435A /* dummySecondViewController.m */,
+				457FDDE615A1AF7F00BB435A /* dummySecondViewController_iPhone.xib */,
+				457FDDDC15A1AF7F00BB435A /* second.png */,
+				457FDDDE15A1AF7F00BB435A /* second@2x.png */,
+				457FDDE915A1AF7F00BB435A /* dummySecondViewController_iPad.xib */,
+				457FDE0915A1AFD200BB435A /* AccountSummaryViewController.h */,
+				457FDE0A15A1AFD200BB435A /* AccountSummaryViewController.m */,
+				457FDE0B15A1AFD200BB435A /* AccountSummaryViewController.xib */,
+				45837D5B15A1E1CE00A69EC1 /* AccountDetailsSubView.h */,
+				45837D5C15A1E1CE00A69EC1 /* AccountDetailsSubView.m */,
+				45837D5D15A1E1CE00A69EC1 /* AccountDetailsSubView.xib */,
+				9F46E74E160099CF002D3D60 /* CardSummaryViewController.h */,
+				9F46E74F160099D0002D3D60 /* CardSummaryViewController.m */,
+				9F46E750160099D0002D3D60 /* CardSummaryViewController.xib */,
+				9F46E75F1600D2E3002D3D60 /* CardDetailsViewController.h */,
+				9F46E7601600D2E5002D3D60 /* CardDetailsViewController.m */,
+				9F46E7611600D2E5002D3D60 /* CardDetailsViewController.xib */,
+				45837D6E15A1FC1F00A69EC1 /* dummyCell.h */,
+				45837D6F15A1FC1F00A69EC1 /* dummyCell.m */,
+				45837D7215A1FCCD00A69EC1 /* dummyCell.xib */,
+				457E7EC815A54F360012AB79 /* transferViewController.h */,
+				457E7EC915A54F360012AB79 /* transferViewController.m */,
+				457E7ECA15A54F360012AB79 /* transferViewController.xib */,
+				4579D67F15A58EAF0026546C /* ToAccSelViewController.h */,
+				4579D68015A58EAF0026546C /* ToAccSelViewController.m */,
+				4579D68115A58EAF0026546C /* ToAccSelViewController.xib */,
+				4579D68715A5941D0026546C /* FromAccSelViewController.h */,
+				4579D68815A594200026546C /* FromAccSelViewController.m */,
+				4579D68915A594200026546C /* FromAccSelViewController.xib */,
+				4579D68E15A594B00026546C /* TransferAmtViewController.h */,
+				4579D68F15A594B00026546C /* TransferAmtViewController.m */,
+				4579D69015A594B00026546C /* TransferAmtViewController.xib */,
+				4579D69515A594C50026546C /* TransferConfirmViewController.h */,
+				4579D69615A594C50026546C /* TransferConfirmViewController.m */,
+				4579D69715A594C50026546C /* TransferConfirmViewController.xib */,
+				4579D69C15A596AA0026546C /* TransferDateViewController.h */,
+				4579D69D15A596AA0026546C /* TransferDateViewController.m */,
+				4579D69E15A596AA0026546C /* TransferDateViewController.xib */,
+				4575FB3415AAD60100AEEEF0 /* MessageViewController.h */,
+				4575FB3515AAD60100AEEEF0 /* MessageViewController.m */,
+				4575FB3615AAD60200AEEEF0 /* MessageViewController.xib */,
+				9F85BFB215E5FF8100CAF3B2 /* ComposeMailViewController.h */,
+				9F85BFB315E5FF8100CAF3B2 /* ComposeMailViewController.m */,
+				9F85BFB415E5FF8100CAF3B2 /* ComposeMailViewController.xib */,
+				4584328E15AC3BCB00C3530B /* AuthController.h */,
+				4584328F15AC3BCB00C3530B /* AuthController.m */,
+				458021AB15AC7BDB005AE564 /* TokenViewController.h */,
+				458021AC15AC7BDB005AE564 /* TokenViewController.m */,
+				458021AD15AC7BDB005AE564 /* TokenViewController.xib */,
+				9FC0F4EF15B694450007B723 /* TokenViewController_ipad.xib */,
+				45CDBFD915AD6A4D00BC87FC /* HomeViewController.h */,
+				45CDBFDA15AD6A4D00BC87FC /* HomeViewController.m */,
+				45CDBFDB15AD6A4D00BC87FC /* HomeViewController.xib */,
+				9FC0F53D15B6A12A0007B723 /* WelcomeViewController_ipad.h */,
+				9FC0F53E15B6A12A0007B723 /* WelcomeViewController_ipad.m */,
+				9FC0F53F15B6A12A0007B723 /* WelcomeViewController_ipad.xib */,
+				9FC0F54C15B6AC970007B723 /* LeftViewController.h */,
+				9FC0F54D15B6AC970007B723 /* LeftViewController.m */,
+				9FC0F54E15B6AC970007B723 /* LeftViewController.xib */,
+				9FC0F54715B6A3300007B723 /* RightViewController.h */,
+				9FC0F54815B6A3300007B723 /* RightViewController.m */,
+				9FC0F54915B6A3300007B723 /* RightViewController.xib */,
+				45CDBFE115AD6CC100BC87FC /* MailBoxViewController.h */,
+				45CDBFE215AD6CC100BC87FC /* MailBoxViewController.m */,
+				45CDBFE315AD6CC100BC87FC /* MailBoxViewController.xib */,
+				45CDBFE815AD749200BC87FC /* PaymentsViewController.h */,
+				45CDBFE915AD749200BC87FC /* PaymentsViewController.m */,
+				45CDBFEA15AD749300BC87FC /* PaymentsViewController.xib */,
+				4579EEA815ADC8A4000305FA /* OutsidePath.plist */,
+				4579EEAB15ADCCF8000305FA /* OneTimePayViewController.h */,
+				4579EEAC15ADCCF8000305FA /* OneTimePayViewController.m */,
+				4579EEAD15ADCCF8000305FA /* OneTimePayViewController.xib */,
+				9FC8529615B1965C00527D78 /* OneTimePayConfirmViewController.h */,
+				9FC8529715B1965D00527D78 /* OneTimePayConfirmViewController.m */,
+				9FC8529815B1965E00527D78 /* OneTimePayConfirmViewController.xib */,
+				9F46E74316005FB0002D3D60 /* BillerAccSelViewController.h */,
+				9F46E74416005FB0002D3D60 /* BillerAccSelViewController.m */,
+				9F46E74516005FB0002D3D60 /* BillerAccSelViewController.xib */,
+				9F46E749160066F1002D3D60 /* BPConfirmViewController.h */,
+				9F46E74A160066F2002D3D60 /* BPConfirmViewController.m */,
+				9F46E74B160066F2002D3D60 /* BPConfirmViewController.xib */,
+				9FC8528B15B03A1D00527D78 /* LogoutViewController.h */,
+				9FC8528C15B03A1E00527D78 /* LogoutViewController.m */,
+				9FC8528D15B03A1E00527D78 /* LogoutViewController.xib */,
+				9F5F908C15B3ADF800E52500 /* MailBoxDetailsViewController.h */,
+				9F5F908D15B3ADF800E52500 /* MailBoxDetailsViewController.m */,
+				9F5F908E15B3ADF800E52500 /* MailBoxDetailsViewController.xib */,
+				9F5F909215B3B27900E52500 /* OneTimePayResultView.xib */,
+				9F1C133A1604A2D900E8A5AA /* PromotionsViewController.h */,
+				9F1C133B1604A2D900E8A5AA /* PromotionsViewController.m */,
+				9F1C133C1604A2D900E8A5AA /* PromotionsViewController.xib */,
+				9F33F339170C2A2D00714197 /* CustomViews */,
+				9F1C14181604CBB300E8A5AA /* AdUnit */,
+			);
+			path = MobileBanking;
+			sourceTree = "<group>";
+		};
+		457FDDC715A1AF7F00BB435A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457FDDC815A1AF7F00BB435A /* MobileBankingDemo-Info.plist */,
+				457FDDC915A1AF7F00BB435A /* InfoPlist.strings */,
+				457FDDCC15A1AF7F00BB435A /* main.m */,
+				457FDDCE15A1AF7F00BB435A /* MobileBanking-Prefix.pch */,
+				45CDBFEF15AD7A4D00BC87FC /* DummyData.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		457FDDF815A1AF8100BB435A /* MobileBankingTests */ = {
+			isa = PBXGroup;
+			children = (
+				457FDDFE15A1AF8100BB435A /* MobileBankingTests.h */,
+				457FDDFF15A1AF8100BB435A /* MobileBankingTests.m */,
+				457FDDF915A1AF8100BB435A /* Supporting Files */,
+			);
+			path = MobileBankingTests;
+			sourceTree = "<group>";
+		};
+		457FDDF915A1AF8100BB435A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457FDDFA15A1AF8100BB435A /* MobileBankingDemoTests-Info.plist */,
+				457FDDFB15A1AF8100BB435A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F33F339170C2A2D00714197 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9F33F33A170C2A5700714197 /* dummyCustomAlertView.h */,
+				9F33F33B170C2A5700714197 /* dummyCustomAlertView.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457FDDBB15A1AF7F00BB435A /* MobileBankingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457FDE0315A1AF8100BB435A /* Build configuration list for PBXNativeTarget "MobileBankingDemo" */;
+			buildPhases = (
+				457FDDB815A1AF7F00BB435A /* Sources */,
+				457FDDB915A1AF7F00BB435A /* Frameworks */,
+				457FDDBA15A1AF7F00BB435A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileBankingDemo;
+			productName = MobileBanking;
+			productReference = 457FDDBC15A1AF7F00BB435A /* MobileBankingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457FDDF015A1AF8000BB435A /* MobileBankingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457FDE0615A1AF8100BB435A /* Build configuration list for PBXNativeTarget "MobileBankingDemoTests" */;
+			buildPhases = (
+				457FDDEC15A1AF8000BB435A /* Sources */,
+				457FDDED15A1AF8000BB435A /* Frameworks */,
+				457FDDEE15A1AF8000BB435A /* Resources */,
+				457FDDEF15A1AF8000BB435A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457FDDF715A1AF8100BB435A /* PBXTargetDependency */,
+			);
+			name = MobileBankingDemoTests;
+			productName = MobileBankingTests;
+			productReference = 457FDDF115A1AF8000BB435A /* MobileBankingDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457FDDB315A1AF7F00BB435A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = dummy;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 457FDDB615A1AF7F00BB435A /* Build configuration list for PBXProject "MobileBankingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 457FDDB115A1AF7F00BB435A;
+			productRefGroup = 457FDDBD15A1AF7F00BB435A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457FDDBB15A1AF7F00BB435A /* MobileBankingDemo */,
+				457FDDF015A1AF8000BB435A /* MobileBankingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457FDDBA15A1AF7F00BB435A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FDDCB15A1AF7F00BB435A /* InfoPlist.strings in Resources */,
+				457FDDD615A1AF7F00BB435A /* first.png in Resources */,
+				457FDDD815A1AF7F00BB435A /* first@2x.png in Resources */,
+				457FDDDD15A1AF7F00BB435A /* second.png in Resources */,
+				457FDDDF15A1AF7F00BB435A /* second@2x.png in Resources */,
+				457FDDE215A1AF7F00BB435A /* dummyFirstViewController_iPhone.xib in Resources */,
+				457FDDE515A1AF7F00BB435A /* dummyFirstViewController_iPad.xib in Resources */,
+				457FDDE815A1AF7F00BB435A /* dummySecondViewController_iPhone.xib in Resources */,
+				457FDDEB15A1AF7F00BB435A /* dummySecondViewController_iPad.xib in Resources */,
+				457FDE0D15A1AFD200BB435A /* AccountSummaryViewController.xib in Resources */,
+				45837D6015A1E1CE00A69EC1 /* AccountDetailsSubView.xib in Resources */,
+				45837D7315A1FCCD00A69EC1 /* dummyCell.xib in Resources */,
+				457E7ECD15A54F360012AB79 /* transferViewController.xib in Resources */,
+				4579D68415A58EAF0026546C /* ToAccSelViewController.xib in Resources */,
+				4579D68C15A594210026546C /* FromAccSelViewController.xib in Resources */,
+				4579D69315A594B10026546C /* TransferAmtViewController.xib in Resources */,
+				4579D69A15A594C50026546C /* TransferConfirmViewController.xib in Resources */,
+				4579D6A115A596AA0026546C /* TransferDateViewController.xib in Resources */,
+				4575FB3815AAD60400AEEEF0 /* MessageViewController.xib in Resources */,
+				458021AF15AC7BDB005AE564 /* TokenViewController.xib in Resources */,
+				45CDBFDE15AD6A4D00BC87FC /* HomeViewController.xib in Resources */,
+				45CDBFE615AD6CC100BC87FC /* MailBoxViewController.xib in Resources */,
+				45CDBFED15AD749500BC87FC /* PaymentsViewController.xib in Resources */,
+				45CDBFF015AD7A4D00BC87FC /* DummyData.plist in Resources */,
+				4579EEA915ADC8A4000305FA /* OutsidePath.plist in Resources */,
+				4579EEAF15ADCCF8000305FA /* OneTimePayViewController.xib in Resources */,
+				9F433D851863DD9D0089E3F4 /* amex.png in Resources */,
+				4575946815AE7835004871E4 /* 172.jpg in Resources */,
+				4575946B15AE7849004871E4 /* 369.jpg in Resources */,
+				4575946C15AE7849004871E4 /* 451.gif in Resources */,
+				9FC8527615B0245D00527D78 /* cards_lbl.png in Resources */,
+				9FC8527815B0246400527D78 /* payment_lbl.png in Resources */,
+				9FC8527A15B0246B00527D78 /* transfer_lbl.png in Resources */,
+				9FC8527C15B0247100527D78 /* accounts.png in Resources */,
+				9FC8527E15B0247700527D78 /* messages.png in Resources */,
+				9FC8528015B024B400527D78 /* mb_acc.png in Resources */,
+				9FC8528215B0274000527D78 /* home_30.png in Resources */,
+				9FC8528415B027F900527D78 /* account_30.png in Resources */,
+				9FC8528615B027FE00527D78 /* message_30.png in Resources */,
+				9FC8528815B0280300527D78 /* transfer_30.png in Resources */,
+				9FC8528A15B0285700527D78 /* payment_30.png in Resources */,
+				9FC8528F15B03A1F00527D78 /* LogoutViewController.xib in Resources */,
+				9FC8529115B03D7C00527D78 /* mb_launch.png in Resources */,
+				9FC8529515B03FE800527D78 /* Icon.png in Resources */,
+				9FC8529A15B1965F00527D78 /* OneTimePayConfirmViewController.xib in Resources */,
+				9F433D831863DD3D0089E3F4 /* master.png in Resources */,
+				9F5F909015B3ADF800E52500 /* MailBoxDetailsViewController.xib in Resources */,
+				9F433D871863DDA30089E3F4 /* visa.png in Resources */,
+				9F5F909315B3B27900E52500 /* OneTimePayResultView.xib in Resources */,
+				9F5F909715B3D84B00E52500 /* login_bg.png in Resources */,
+				9F5F909B15B3EF7C00E52500 /* breadcrumbs.png in Resources */,
+				9F5F909D15B3F5B400E52500 /* bc2.png in Resources */,
+				9F5F90A115B3F8A100E52500 /* bc_amt.png in Resources */,
+				9F5F90A215B3F8A100E52500 /* bc_from.png in Resources */,
+				9F5F90A315B3F8A100E52500 /* bc_when.png in Resources */,
+				9F5F90A515B3F9A400E52500 /* email_compose.png in Resources */,
+				9F5F90A815B3FAD700E52500 /* bc_confirm.png in Resources */,
+				9F5F90A915B3FAD700E52500 /* bc_result.png in Resources */,
+				9FC0F4F015B694450007B723 /* TokenViewController_ipad.xib in Resources */,
+				9FC0F54115B6A12A0007B723 /* WelcomeViewController_ipad.xib in Resources */,
+				9FC0F54B15B6A3300007B723 /* RightViewController.xib in Resources */,
+				9FC0F55015B6AC970007B723 /* LeftViewController.xib in Resources */,
+				9F85BFB615E5FF8100CAF3B2 /* ComposeMailViewController.xib in Resources */,
+				9F46E74716005FB0002D3D60 /* BillerAccSelViewController.xib in Resources */,
+				9F46E74D160066F2002D3D60 /* BPConfirmViewController.xib in Resources */,
+				9F46E752160099D1002D3D60 /* CardSummaryViewController.xib in Resources */,
+				9F46E7631600D2E6002D3D60 /* CardDetailsViewController.xib in Resources */,
+				9F1C133E1604A2D900E8A5AA /* PromotionsViewController.xib in Resources */,
+				9F1C14191604CBB300E8A5AA /* AdUnit in Resources */,
+				9FB119881607034000093E39 /* promotions.png in Resources */,
+				9FB1198B160706E900093E39 /* bc_biller.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FDDEE15A1AF8000BB435A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FDDFD15A1AF8100BB435A /* InfoPlist.strings in Resources */,
+				45837D6115A1E1CE00A69EC1 /* AccountDetailsSubView.xib in Resources */,
+				45837D7415A1FCCD00A69EC1 /* dummyCell.xib in Resources */,
+				457E7ECE15A54F360012AB79 /* transferViewController.xib in Resources */,
+				4579D68515A58EAF0026546C /* ToAccSelViewController.xib in Resources */,
+				4579D68D15A594210026546C /* FromAccSelViewController.xib in Resources */,
+				4579D69415A594B10026546C /* TransferAmtViewController.xib in Resources */,
+				4579D69B15A594C50026546C /* TransferConfirmViewController.xib in Resources */,
+				4579D6A215A596AA0026546C /* TransferDateViewController.xib in Resources */,
+				45CDBFDF15AD6A4D00BC87FC /* HomeViewController.xib in Resources */,
+				45CDBFE715AD6CC100BC87FC /* MailBoxViewController.xib in Resources */,
+				45CDBFEE15AD749500BC87FC /* PaymentsViewController.xib in Resources */,
+				45CDBFF115AD7A4D00BC87FC /* DummyData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457FDDEF15A1AF8000BB435A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457FDDB815A1AF7F00BB435A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FDDCD15A1AF7F00BB435A /* main.m in Sources */,
+				457FDDD115A1AF7F00BB435A /* dummyAppDelegate.m in Sources */,
+				457FDDD415A1AF7F00BB435A /* dummyFirstViewController.m in Sources */,
+				457FDDDB15A1AF7F00BB435A /* dummySecondViewController.m in Sources */,
+				457FDE0C15A1AFD200BB435A /* AccountSummaryViewController.m in Sources */,
+				45837D5E15A1E1CE00A69EC1 /* AccountDetailsSubView.m in Sources */,
+				45837D7015A1FC1F00A69EC1 /* dummyCell.m in Sources */,
+				457E7ECB15A54F360012AB79 /* transferViewController.m in Sources */,
+				4579D68215A58EAF0026546C /* ToAccSelViewController.m in Sources */,
+				4579D68A15A594210026546C /* FromAccSelViewController.m in Sources */,
+				4579D69115A594B10026546C /* TransferAmtViewController.m in Sources */,
+				4579D69815A594C50026546C /* TransferConfirmViewController.m in Sources */,
+				4579D69F15A596AA0026546C /* TransferDateViewController.m in Sources */,
+				4575FB3715AAD60400AEEEF0 /* MessageViewController.m in Sources */,
+				4584329015AC3BCC00C3530B /* AuthController.m in Sources */,
+				458021AE15AC7BDB005AE564 /* TokenViewController.m in Sources */,
+				45CDBFDC15AD6A4D00BC87FC /* HomeViewController.m in Sources */,
+				45CDBFE415AD6CC100BC87FC /* MailBoxViewController.m in Sources */,
+				45CDBFEB15AD749500BC87FC /* PaymentsViewController.m in Sources */,
+				4579EEAE15ADCCF8000305FA /* OneTimePayViewController.m in Sources */,
+				9FC8528E15B03A1F00527D78 /* LogoutViewController.m in Sources */,
+				9FC8529915B1965F00527D78 /* OneTimePayConfirmViewController.m in Sources */,
+				9F5F908F15B3ADF800E52500 /* MailBoxDetailsViewController.m in Sources */,
+				9FC0F54015B6A12A0007B723 /* WelcomeViewController_ipad.m in Sources */,
+				9FC0F54A15B6A3300007B723 /* RightViewController.m in Sources */,
+				9FC0F54F15B6AC970007B723 /* LeftViewController.m in Sources */,
+				9F8BAD6C15BE963400C76142 /* KeychainWrapper.m in Sources */,
+				9F8D997715BF8A2400656076 /* KeychainItemWrapper.m in Sources */,
+				9F85BFB515E5FF8100CAF3B2 /* ComposeMailViewController.m in Sources */,
+				9F46E74616005FB0002D3D60 /* BillerAccSelViewController.m in Sources */,
+				9F46E74C160066F2002D3D60 /* BPConfirmViewController.m in Sources */,
+				9F46E751160099D1002D3D60 /* CardSummaryViewController.m in Sources */,
+				9F46E7621600D2E6002D3D60 /* CardDetailsViewController.m in Sources */,
+				9F1C133D1604A2D900E8A5AA /* PromotionsViewController.m in Sources */,
+				9F33F33C170C2A5700714197 /* dummyCustomAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457FDDEC15A1AF8000BB435A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FDE0015A1AF8100BB435A /* MobileBankingTests.m in Sources */,
+				45837D5F15A1E1CE00A69EC1 /* AccountDetailsSubView.m in Sources */,
+				45837D7115A1FC1F00A69EC1 /* dummyCell.m in Sources */,
+				457E7ECC15A54F360012AB79 /* transferViewController.m in Sources */,
+				4579D68315A58EAF0026546C /* ToAccSelViewController.m in Sources */,
+				4579D68B15A594210026546C /* FromAccSelViewController.m in Sources */,
+				4579D69215A594B10026546C /* TransferAmtViewController.m in Sources */,
+				4579D69915A594C50026546C /* TransferConfirmViewController.m in Sources */,
+				4579D6A015A596AA0026546C /* TransferDateViewController.m in Sources */,
+				45CDBFDD15AD6A4D00BC87FC /* HomeViewController.m in Sources */,
+				45CDBFE515AD6CC100BC87FC /* MailBoxViewController.m in Sources */,
+				45CDBFEC15AD749500BC87FC /* PaymentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457FDDF715A1AF8100BB435A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457FDDBB15A1AF7F00BB435A /* MobileBankingDemo */;
+			targetProxy = 457FDDF615A1AF8100BB435A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		457FDDC915A1AF7F00BB435A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDCA15A1AF7F00BB435A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		457FDDE015A1AF7F00BB435A /* dummyFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDE115A1AF7F00BB435A /* en */,
+			);
+			name = dummyFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		457FDDE315A1AF7F00BB435A /* dummyFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDE415A1AF7F00BB435A /* en */,
+			);
+			name = dummyFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		457FDDE615A1AF7F00BB435A /* dummySecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDE715A1AF7F00BB435A /* en */,
+			);
+			name = dummySecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		457FDDE915A1AF7F00BB435A /* dummySecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDEA15A1AF7F00BB435A /* en */,
+			);
+			name = dummySecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		457FDDFB15A1AF8100BB435A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457FDDFC15A1AF8100BB435A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457A43FB15ABD0020057BC5D /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release copy";
+		};
+		457A43FC15ABD0020057BC5D /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBankingDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobileBanking/MobileBankingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = MobileBankingDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Release copy";
+		};
+		457A43FD15ABD0020057BC5D /* Release copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileBanking.app/MobileBanking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBanking-Prefix.pch";
+				INFOPLIST_FILE = "MobileBankingTests/MobileBankingDemoTests-Info.plist";
+				PRODUCT_NAME = MobileBankingDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Release copy";
+		};
+		457FDE0115A1AF8100BB435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		457FDE0215A1AF8100BB435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457FDE0415A1AF8100BB435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBankingDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobileBanking/MobileBankingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = MobileBankingDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		457FDE0515A1AF8100BB435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBankingDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobileBanking/MobileBankingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = MobileBankingDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		457FDE0715A1AF8100BB435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileBanking.app/MobileBanking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBanking-Prefix.pch";
+				INFOPLIST_FILE = "MobileBankingTests/MobileBankingDemoTests-Info.plist";
+				PRODUCT_NAME = MobileBankingDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		457FDE0815A1AF8100BB435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileBanking.app/MobileBanking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBanking-Prefix.pch";
+				INFOPLIST_FILE = "MobileBankingTests/MobileBankingDemoTests-Info.plist";
+				PRODUCT_NAME = MobileBankingDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		9F5F90AA15B4033800E52500 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		9F5F90AB15B4033800E52500 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBankingDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobileBanking/MobileBankingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = MobileBankingDemo;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Adhoc;
+		};
+		9F5F90AC15B4033800E52500 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileBanking.app/MobileBanking";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBanking/MobileBanking-Prefix.pch";
+				INFOPLIST_FILE = "MobileBankingTests/MobileBankingDemoTests-Info.plist";
+				PRODUCT_NAME = MobileBankingDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457FDDB615A1AF7F00BB435A /* Build configuration list for PBXProject "MobileBankingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FDE0115A1AF8100BB435A /* Debug */,
+				457FDE0215A1AF8100BB435A /* Release */,
+				9F5F90AA15B4033800E52500 /* Adhoc */,
+				457A43FB15ABD0020057BC5D /* Release copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457FDE0315A1AF8100BB435A /* Build configuration list for PBXNativeTarget "MobileBankingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FDE0415A1AF8100BB435A /* Debug */,
+				457FDE0515A1AF8100BB435A /* Release */,
+				9F5F90AB15B4033800E52500 /* Adhoc */,
+				457A43FC15ABD0020057BC5D /* Release copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457FDE0615A1AF8100BB435A /* Build configuration list for PBXNativeTarget "MobileBankingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457FDE0715A1AF8100BB435A /* Debug */,
+				457FDE0815A1AF8100BB435A /* Release */,
+				9F5F90AC15B4033800E52500 /* Adhoc */,
+				457A43FD15ABD0020057BC5D /* Release copy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457FDDB315A1AF7F00BB435A /* Project object */;
+}

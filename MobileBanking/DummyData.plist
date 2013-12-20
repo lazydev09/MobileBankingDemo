@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FromAccounts</key>
+	<array>
+		<array>
+			<string>23-12-110-312311</string>
+			<string>02-02-123-543167</string>
+			<string>02-05-156-234523</string>
+			<string>01-01-134-234423</string>
+			<string>01-02-177-234523</string>
+			<string>06-06-110-234523</string>
+			<string>01-01-110-312311</string>
+			<string>01-23-312-543167</string>
+			<string>12-05-700-543167</string>
+			<string>01-01-123-765912</string>
+		</array>
+		<array>
+			<string>200.00</string>
+			<string>56,456,789</string>
+			<string>543,167.00</string>
+			<string>134,343.00</string>
+			<string>345.00</string>
+			<string>8,767.00</string>
+			<string>0.00</string>
+			<string>56.00</string>
+			<string>4,000.00</string>
+			<string>3,434.67</string>
+		</array>
+	</array>
+	<key>Billers</key>
+	<array>
+		<string>Visa</string>
+		<string>Master</string>
+		<string>American Express</string>
+		<string>Apple</string>
+		<string>Amazon</string>
+		<string>Bmobile</string>
+		<string>DST</string>
+		<string>Ecustoms</string>
+		<string>ebay</string>
+		<string>Baiduri Insurance</string>
+	</array>
+	<key>PaymentsMenu</key>
+	<array>
+		<string>One Time Payment</string>
+		<string>Add Biller Account</string>
+		<string>Delete Biller Account</string>
+	</array>
+</dict>
+</plist>
